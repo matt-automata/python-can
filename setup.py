@@ -109,6 +109,7 @@ setup(
         "filelock",
         "mypy_extensions >= 0.4.0, < 0.5.0",
         'pywin32;platform_system=="Windows"',
+        "pyusbtin @ git+https://github.com/fishpepper/pyUSBtin@master#egg=pyusbtin",
     ],
     setup_requires=pytest_runner,
     extras_require=extras_require,
